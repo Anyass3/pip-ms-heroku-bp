@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+echo "**Insalling mediasoup requirements**"
+apt install python3-pip build-essential
+
+
+echo "__Installation complete__"
