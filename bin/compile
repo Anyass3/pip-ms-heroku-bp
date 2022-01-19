@@ -9,7 +9,7 @@ ENV_DIR=$3
 
 echo "**Insalling mediasoup requirements**"
 
-sudo add-apt-repository universe
+add-apt-repository universe
 apt-get update
 apt-get -o debug::nolocking=true -y install python3-pip build-essential
 
