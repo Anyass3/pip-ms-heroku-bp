@@ -15,6 +15,7 @@ ENV_DIR=$3
 echo "**Insalling mediasoup requirements**"
 
 apt-get update
+apt-get upgrade -y
 apt-get install python3-setuptools
 easy_install3 pip
 apt-get -o debug::nolocking=true -y install python3-pip build-essential
